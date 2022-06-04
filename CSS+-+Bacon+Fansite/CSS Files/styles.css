@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    font-family: Arial, serif;
+    font-size: 50px;
+}
+
+/*img{*/
+/*    background-color: darkred;*/
+/*}*/
+
+.bacon{
+    background-color: red;
+}
+
+.broccoli{
+    background-color: greenyellow;
+    border-radius: 15%;
+}
+
+img:hover{
+    background-color: #A03C78;
+}

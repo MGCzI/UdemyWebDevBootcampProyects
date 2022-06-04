@@ -1,0 +1,21 @@
+cd carpeta/ 	--> entre en la carpeta
+
+ls 			--> muestra los archivos de la carpeta de donde estoy parada
+
+dir 			--> muestra las carpetas del direcotio de donde estamos.
+
+
+mkdir NuevaCarperta 		--> crea en la ruta una Nuevacarpeta
+
+cd ./NombreCarpetaAEntrar 	--> entro en la carpta.git
+
+cat newFile.txt 			--> creat a NEW FILE!
+type nul > your_file.txt	--> creat a NEW FILE!
+
+
+
+
+npm init -> inicializa el packed. 
+npm install express
+npm install body-parser --> nos deja pasar la informacion del servido a la pagina web para poderla usarla
+nodemon server.js --> start the server

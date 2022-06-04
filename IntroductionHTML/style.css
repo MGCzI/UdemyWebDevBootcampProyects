@@ -1,0 +1,65 @@
+div{
+    width: 200px;
+    height: 200px;
+
+}
+
+/*---------------------------------------------------------------------*/
+/*                        METHOD 1:  RELATIVE                          */
+/*---------------------------------------------------------------------*/
+/* Position Relative, the object position is relative to the original position (static).
+when we use the properties left, right this are relative to the original position. Its moves Xpx from the static position
+*/
+
+/*.red{*/
+/*    background-color: red;*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    left: 400px;*/
+/*}*/
+
+/*.yellow{*/
+/*    background-color: yellow;*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    right: 200px;*/
+/*}*/
+
+/*.blue{*/
+/*    background-color: blue;*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    right: 200px;*/
+/*}*/
+
+
+/*---------------------------------------------------------------------*/
+/*                        METHOD 2:  ABSOLUT                          */
+/*---------------------------------------------------------------------*/
+/* Position Absolut, the object position is relative to the PARENT.
+When we use the properties left, right this are MARGINE to the PARENT. Its moves Xpx from the PARENT position
+*/
+
+.red{
+    background-color: red;
+    display: block;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+.yellow{
+    background-color: yellow;
+    display: block;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+.blue{
+    background-color: blue;
+    display: block;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
