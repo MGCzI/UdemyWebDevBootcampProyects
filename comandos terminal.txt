@@ -19,3 +19,6 @@ npm init -> inicializa el packed.
 npm install express
 npm install body-parser --> nos deja pasar la informacion del servido a la pagina web para poderla usarla
 nodemon server.js --> start the server
+
+
+clear / cls - clear the terminal

@@ -1,0 +1,56 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #011F3F;
+    font-size:20px;
+}
+
+body{
+    background-color: #011F3F;
+    text-align: center;
+
+}
+
+
+/* ------------------------------------------------------------------
+                                Title
+---------------------------------------------------------------------- */
+.title{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+input{
+    border: none;
+    border-bottom: 3px solid lightblue;
+}
+
+
+
+/* ------------------------------------------------------------------
+                                Units
+---------------------------------------------------------------------- */
+label[for=unitsInput]{
+    margin-left: 30px;
+}
+
+option{
+    background-color: #014586;
+}
+
+select{
+    padding: 5px;
+}
+
+/* ------------------------------------------------------------------
+                                Button
+---------------------------------------------------------------------- */
+
+button{
+    width: 150px;
+    margin-left: 30px;
+    background-color: #014586;
+    padding: 10px;
+    border-radius: 12px;
+}

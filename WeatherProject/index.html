@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="title"> Weather Forecast </h1>
+<form action="/" method="post">
+    <label for="cityInput">City Name:</label>
+    <input id="cityInput" type="text" name="cityName">
+    <label for="unitsInput">Units</label>
+    <select id="unitsInput" name="units">
+        <option value="metric" selected>Celsius</option>
+        <option value="imperial">Fahrenheit </option>
+        <option value="standard">Kelvin</option>
+    </select>
+
+    <button type="submit">Search</button>
+
+</form>
+
+</body>
+</html>
