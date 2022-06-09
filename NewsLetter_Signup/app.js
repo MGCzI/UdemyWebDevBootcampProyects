@@ -1,7 +1,10 @@
-//jshint esversion: 6
-// a64aa49837074b3a00ca4d347d7a2669-us10
-//list id:
-const listId = "8cc977d362";
+
+const listId = process.env.LIST_ID;
+const apiKey = process.env.API_KEY;
+const server = process.env.API_SERVER;
+
+//To add the file of my hidden keys
+require("dotenv").config();
 
 // request paquet that we install.
 const express = require("express");
@@ -19,7 +22,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
 //Set up the michelling
-client.setConfig({apiKey: "a64aa49837074b3a00ca4d347d7a2669",  server: "us10",});
+client.setConfig({apiKey: apiKey,  server:server });
 
 
 
