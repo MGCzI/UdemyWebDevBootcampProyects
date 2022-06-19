@@ -7,7 +7,7 @@ dir 			--> muestra las carpetas del direcotio de donde estamos.
 
 mkdir NuevaCarperta 		--> crea en la ruta una Nuevacarpeta
 
-cd ./NombreCarpetaAEntrar 	--> entro en la carpta.git
+cd ./NombreCarpetaAEntrar 	--> entro en la carpta.
 
 cat newFile.txt 			--> creat a NEW FILE!
 type nul > your_file.txt	--> creat a NEW FILE!
